@@ -3,10 +3,12 @@ ul {
     margin: 0;
     padding: 0px;
 }
-li, h3 {
+li,
+h3 {
     list-style: none;
 }
-input,button{
+input,
+button{
     outline: none;
 }
 
@@ -37,7 +39,8 @@ input,button{
     width: 500px;
     margin: 0 auto 0;
 }
-.task-name, .task-text {
+.task-name,
+.task-text {
     width: 56%;
     display: inline-block;
     flex-grow: 1
@@ -91,7 +94,8 @@ input,button{
 }
 
 /* Task list */
-.incomplite-tasks__task,.completed-tasks__task {
+.incomplite-tasks__task,
+.completed-tasks__task {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
