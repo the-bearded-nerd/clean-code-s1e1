@@ -45,7 +45,7 @@ button{
 .task-text {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-element__row-wrapper {
     display: flex;
